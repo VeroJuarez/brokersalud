@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Hero() {
     return (
         <section className="h-[calc(100vh-300px)] mt-[64px] lg:mt-[72px]">
@@ -11,12 +13,12 @@ export default function Hero() {
                         <p className="text-lg md:text-xl text-blue-500 font-medium mb-2">
                             Tu guía para elegir el mejor plan de salud
                         </p>
-                        <a
-                            href="#contact"
+                        <Link
+                            href="#contacto"
                             className="bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition text-shadow-none"
                         >
                             Contactanos
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div></div>
