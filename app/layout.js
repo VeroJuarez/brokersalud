@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsAppBubble from "@/components/WhatsAppBubble"
+import AosWrapper from "@/components/AosWrapper"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <div className="min-h-[calc(100vh-200px)]">
-          {children}
+          <AosWrapper>{children}</AosWrapper>
         </div>
         <Footer />
         <WhatsAppBubble />

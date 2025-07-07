@@ -2,12 +2,12 @@ const Contact = () => {
     return (
       <section id="contacto" className="bg-blue-50 py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-blue-700 mb-4">¿Tenés dudas? Contactanos</h2>
-          <p className="text-gray-600 mb-8">
+          <h2 data-aos="fade-up" className="text-3xl font-bold text-blue-700 mb-4">¿Tenés dudas? Contactanos</h2>
+          <p data-aos="fade-up" className="text-gray-600 mb-8">
             Completá el formulario y un asesor se comunicará con vos lo antes posible.
           </p>
   
-          <form className="bg-white shadow-md rounded-xl p-6 space-y-4">
+          <form data-aos="fade-up" className="bg-white shadow-md rounded-xl p-6 space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700">Nombre</label>
               <input
