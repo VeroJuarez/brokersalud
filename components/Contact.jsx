@@ -1,13 +1,13 @@
 const Contact = () => {
     return (
-      <section id="contacto" className="min-h-screen flex items-center justify-center bg-gradient-to-b bg-blue-50 py-16 px-4">
+      <section id="contacto" className="min-h-screen flex items-center justify-center bg-gradient-to-b bg-blue-50 pt-16 px-4">
         <div data-aos="fade-up" className="max-w-6xl w-full bg-white rounded-xl shadow-lg p-6">
-          <h2 className="text-3xl font-bold text-blue-700 mb-4 text-center">¿Tenés dudas? Contactanos</h2>
+          <h2 className="text-3xl font-bold text-gray-700 mb-4 text-center">¿Tenés dudas? Te asesoramos gratis y sin compromiso</h2>
           <div data-aos="fade-up" className=" max-w-6xl w-full grid lg:grid-cols-2 gap-10 bg-white rounded-xl">          
           {/* Formulario - Izquierda */}
             <div className="text-center max-w-2xl mx-auto p-8">
               <p className="text-gray-600 mb-8 text-left">
-                Completá el formulario y un asesor se comunicará con vos lo antes posible.
+                Completá el formulario y un asesor se contactará con vos lo antes posible.
               </p>
               <form className="bg-white rounded-xl space-y-4">
                 <div>
@@ -50,7 +50,7 @@ const Contact = () => {
                   type="submit"
                   className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition"
                 >
-                  Enviar mensaje
+                  Quiero que me asesoren
                 </button>
               </form>
             </div>

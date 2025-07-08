@@ -10,8 +10,8 @@ export default function Hero() {
                             <span className="text-blue-500">Broker</span>
                             <span className="text-blue-400">Salud</span>
                         </h1>
-                        <p className="text-lg md:text-xl text-blue-500 font-medium mb-2">
-                            Tu guía para elegir el mejor plan de salud
+                        <p className="text-lg md:text-xl text-blue-600 font-medium mb-2">
+                            Planes de salud accesibles, personalizados y con cobertura nacional.
                         </p>
                         <Link
                             href="#contacto"
