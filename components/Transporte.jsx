@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Transporte() {
     return (
         <section>
-            <div className="container text-lg bg-white max-w-6xl mx-auto my-16 grid lg:grid-cols-2 rounded-3xl drop-shadow-lg">
+            <div data-aos="fade-up" className="container text-lg bg-white max-w-6xl mx-auto my-16 grid lg:grid-cols-2 rounded-3xl drop-shadow-lg">
                 <div className='rounded-l-3xl flex flex-col justify-center gap-6 px-18'>
                   <span className="absolute top-0  mt-16 bg-blue-400 text-white px-2 py-1 rounded mr-auto text-sm">Para trabajadores de transporte</span>
                   <h2 className='text-xl mb-4 font-bold text-gray-600'>
