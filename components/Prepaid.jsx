@@ -8,8 +8,8 @@ export default function Prepaid() {
             </div>
             <div data-aos="fade-in" className="hidden lg:grid container mx-auto px-2 grid-cols-7 place-content-center place-items-center gap-2">
                 <img src="/logosprepagas/galeno.png" alt="galeno" data-aos="fade-up" data-aos-delay="400" className="w-48 object-cover rounded-lg" />
-                <img src="/logosprepagas/docred.png" alt="doctored" data-aos="fade-up" data-aos-delay="200" className="w-48 object-cover rounded-lg" />
                 <img src="/logosprepagas/avalian.png" alt="avalian" data-aos="fade-up" data-aos-delay="600" className="w-48 object-cover rounded-lg" />
+                <img src="/logosprepagas/docred.png" alt="doctored" data-aos="fade-up" data-aos-delay="200" className="w-48 object-cover rounded-lg" />
                 <img src="/logosprepagas/premedic.svg" alt="premedic" data-aos="fade-up" data-aos-delay="800" className="w-48 object-cover rounded-lg" />
                 <img src="/logosprepagas/swissmedical.svg" alt="swissmedical" data-aos="fade-up" data-aos-delay="1000" className="w-48 object-cover rounded-lg" />              
                 <img src="/logosprepagas/saludsancor.webp" alt="prevencionsalud" data-aos="fade-up" data-aos-delay="1200" className="w-48 object-cover rounded-lg" />

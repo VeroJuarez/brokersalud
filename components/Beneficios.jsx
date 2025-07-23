@@ -20,11 +20,11 @@ export default function Beneficios() {
             </li>
             <li className='flex items-center gap-2'>
               <CheckIcon size={16} className='text-blue-500' />
-              Amplias cartillas médicas
+              Amplia cartilla médica
             </li>
             <li className='flex items-center gap-2'>
               <CheckIcon size={16} className='text-blue-500' />
-              Centros de salud cerca tuyo
+              Los mejores Centros médicos
             </li>
             <li className='flex items-center gap-2'>
               <CheckIcon size={16} className='text-blue-500' />
