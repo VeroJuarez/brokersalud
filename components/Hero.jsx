@@ -10,7 +10,7 @@ export default function Hero() {
                             <span className="text-blue-500">Broker</span>
                             <span className="text-blue-400">Salud</span>
                         </h1>
-                        <p className="text-lg md:text-xl text-blue-600 font-medium mb-2">
+                        <p className="text-lg md:text-xl text-blue-600 text-center font-medium mb-2">
                             Las mejores prepagas, al mejor precio y sin limite de edad
                         </p>
                         <Link

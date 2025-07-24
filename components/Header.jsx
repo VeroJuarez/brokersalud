@@ -11,7 +11,7 @@ const Navbar = ({onContactClick}) => {
         { name: "Jovenes", href: "/jovenes" },
         { name: "Adultos Mayores", href: "/mayores" },
         { name: "Monotributistas", href: "/monotributistas" },
-        { name: "Transporte", href: "/transporte" },
+        { name: "Transporte", href: "/transportistas" },
         // { name: "Preguntas Frecuentes", href: "/faq" },
         { name: "Contacto", href: "#contacto", onClick: onContactClick }
     ]
