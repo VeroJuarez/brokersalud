@@ -4,7 +4,7 @@ export default function Mayores() {
     return (
         <section className="mx-2">
             <div data-aos="fade-up" className="container text-lg bg-white max-w-6xl mx-auto my-16 grid lg:grid-cols-2 rounded-3xl drop-shadow-lg">
-              <div className='lg:order-1 order-2 w-full h-[500px] bg-[url("/mayores.jpg")] bg-cover bg-center rounded-t-3xl lg:rounded-l-3xl'></div>
+              <div className='lg:order-1 order-2 w-full h-[500px] bg-[url("/mayores.jpg")] bg-cover bg-right rounded-t-3xl lg:rounded-l-3xl'></div>
               <div className='lg:order-1 order-2 lg:rounded-l-3xl rounded-b-3xl flex flex-col justify-center lg:gap-6 lg:px-18 px-6'>
                 <span className="absolute top-0  mt-16 bg-purple-400 text-white px-2 py-1 rounded mr-auto text-md">Para mayores de 60 años</span>
                 <h2 className='text-xl font-bold text-gray-600 py-2 text-center'>
