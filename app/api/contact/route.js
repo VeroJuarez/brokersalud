@@ -18,8 +18,8 @@ export async function POST(request) {
   try {
     // Envía el correo
     await transporter.sendMail({
-      from: `"Formulario de Contacto" <${process.env.EMAIL_USER}>`,
-      to: process.env.EMAIL_USER, // Tu correo
+      from: `"BrokerSalud - Formulario de Contacto" <${process.env.EMAIL_USER}>`,
+      to: process.env.EMAIL_TO, // Tu correo
       subject: 'Nuevo mensaje del formulario de contacto',
       html: `
         <h2>Nuevo mensaje de contacto</h2>
