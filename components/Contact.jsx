@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-      <section id="contacto" className="min-h-screen flex items-center justify-center bg-gradient-to-b bg-blue-50 pt-16 px-4">
+      <section id="contacto" className="flex items-center justify-center bg-gradient-to-b bg-blue-50 py-16 px-4">
         <div data-aos="fade-up" className="max-w-6xl w-full bg-white rounded-xl shadow-lg p-6">
           <h2 className="text-3xl font-bold text-gray-700 mb-4 text-center">¿Tenés dudas? Te asesoramos gratis y sin compromiso</h2>
           <div data-aos="fade-up" className=" max-w-6xl w-full grid lg:grid-cols-2 gap-10 bg-white rounded-xl">          
