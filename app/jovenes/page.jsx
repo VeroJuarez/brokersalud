@@ -5,13 +5,13 @@ export default function Jovenes() {
     return (
         <div className='bg-[#FAFAFE]'>
             <section className='h-[calc(100vh-500px)] md:h-[calc(100vh-150px)] mt-[64px] lg:mt-[72px]'>
-                <div className='grid  grid-rows-2 h-full place-items-center bg-[url(/jovenesportada.jpg)] bg-cover bg-center 2xl:bg-[center_-900px]'>
+                <div className='grid grid-rows-2 h-full place-items-center bg-[url(/jovenesportada.jpg)] bg-cover bg-center 2xl:bg-[center_-900px]'>
                     <div className='order-last lg:order-first container h-full px-4 flex flex-col gap-4'>
                         <div className='my-auto flex flex-col gap-4 items-center'> 
                             <h1 className='text-2xl font-bold mb-4 text-blue-600 text-center'>
                                 ¿Sos profesional? ¿Trabajas freelance?
                             </h1>
-                            <p className='text-blue-600 text-center'>Si, no estas conforme con tu obra social, te ofrecemos opciones sin abonar diferencia</p>
+                            <p className='text-blue-600 text-xl text-center'>Si, no estas conforme con tu obra social, te ofrecemos opciones sin abonar diferencia</p>
                             <Link
                                 href="/#contacto"
                                 className="animate-glow bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition text-shadow-none"

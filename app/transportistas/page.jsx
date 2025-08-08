@@ -5,9 +5,9 @@ export default function transportistas() {
     return (
         <div className='bg-[#FAFAFE]'>
             <section className='h-[calc(100vh-500px)] md:h-[calc(100vh-300px)] mt-[64px] lg:mt-[72px]'>
-                <div className='grid lg:grid-cols-2 grid-rows-2 lg:grid-rows-1 h-full place-items-center bg-[url(/trenelectrico.jpg)] bg-cover bg-[-300px_-100px] sm:bg-center xl:bg-[center_-150px]'>
-                    <div className='order-last lg:order-first container h-full px-4 flex flex-col gap-4 bg-gradient-to-t from-white via-slate-100 via-slate-200 to-transparent lg:bg-gradient-to-r lg:from-white lg:via-white/70 lg:to-white/0'>
-                        <div className="my-auto flex flex-col gap-4 items-center md:ml-32">
+                <div className='grid lg:grid-cols-2 lg:grid-rows-1 h-full items-end justify-center bg-[url(/trenelectrico.jpg)] bg-cover bg-[-300px_-100px] sm:bg-center'>
+                    <div className='grid container h-full px-4 gap-4 bg-gradient-to-t from-white via-white/50 to-transparent lg:bg-gradient-to-r lg:from-white lg:via-white/70 lg:to-white/0'>
+                        <div className="flex flex-col justify-end gap-4 py-8 items-center">
                             <h1 className='text-xl lg:text-2xl font-bold text-blue-600'>
                                 <span>¿Sos trabajador de ferrocarril o de colectivo?</span>
                             </h1>
@@ -25,7 +25,7 @@ export default function transportistas() {
                     </div>
                 </div>
             </section>
-            <div className='py-16'>
+            <div className='py-16 px-4'>
                 <div className='container text-lg bg-white max-w-6xl mx-auto grid lg:grid-cols-2 rounded-3xl drop-shadow-lg'>
                     <div className='lg:order-1 order-2 lg:rounded-l-3xl rounded-b-3xl p-6 flex flex-col justify-center items-center gap-12'>
                         <h2 className='text-lg font-medium text-gray-600 lg:px-24'>
