@@ -2,7 +2,7 @@ import Carousel from "./Carousel"
 
 export default function Prepaid() {
     return (
-        <section className="bg-white pb-16 lg:py-16">
+        <section className="bg-white pb-16 pt-12 lg:py-16">
             <div data-aos="fade-in" className="lg:hidden">
                 <Carousel images={['/logosprepagas/galeno.png', '/logosprepagas/doctored.png', '/logosprepagas/avalian.png', '/logosprepagas/premedic.svg', '/logosprepagas/swissmedical.svg', '/logosprepagas/prevencionsalud.webp']} />
             </div>

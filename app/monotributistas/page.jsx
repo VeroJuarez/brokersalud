@@ -5,14 +5,14 @@ export default function monotributistas() {
     return(
         <div className='bg-[#FAFAFE]'>
             <section className='h-[calc(100vh-300px)] md:h-[calc(100vh-150px)] mt-[64px] lg:mt-[72px]'>
-                <div className='grid lg:grid-cols-2 lg:grid-rows-1 h-full items-end justify-center bg-[url(/monotributo.jpeg)] bg-cover bg-[-300px_-100px] sm:bg-center'>
+                <div className='grid lg:grid-cols-2 lg:grid-rows-1 h-full items-end justify-center bg-[url(/monotributo.jpeg)] bg-no-repeat bg-cover bg-[center_50%] sm:bg-center'>
                 <div className='grid container lg:grid-rows-2 h-full px-4 gap-4 bg-gradient-to-t from-white via-white/50 to-transparent lg:bg-gradient-to-r lg:from-white lg:via-white/70 lg:to-white/0'>
-                        <div className='flex flex-col justify-end mb-12 gap-4 items-center'> 
-                            <h1 className='text-xl font-bold mb-4 text-blue-600'>
+                        <div className='flex flex-col justify-end lg:justify-center mb-12 gap-4 items-center'> 
+                            <h1 className='text-2xl font-bold mb-4 text-blue-600'>
                                 ¿Sos monotributista? 
                             </h1>
-                            <h1 className='text-xl mb-4 text-blue-600'>
-                                Tu monotributo puede darte una prepaga de calidad y !Sin pagar de más¡
+                            <h1 className='text-xl mb-4 font-medium text-blue-600'>
+                                Tu monotributo puede darte una prepaga de calidad y ¡Sin pagar de más!
                             </h1>
                             <p className='text-blue-600 text-center text-xl'>
                                 Sin tramites complicados. Sin letra chica

@@ -4,11 +4,11 @@ import Link from 'next/link'
 export default function transportistas() {
     return (
         <div className='bg-[#FAFAFE]'>
-            <section className='h-[calc(100vh-500px)] md:h-[calc(100vh-300px)] mt-[64px] lg:mt-[72px]'>
-                <div className='grid lg:grid-cols-2 lg:grid-rows-1 h-full items-end justify-center bg-[url(/trenelectrico.jpg)] bg-cover bg-[-300px_-100px] sm:bg-center'>
+            <section className='h-[calc(100vh-300px)] md:h-[calc(100vh-300px)] mt-[64px] lg:mt-[72px]'>
+                <div className='grid lg:grid-cols-2 lg:grid-rows-1 h-full items-end justify-center bg-[url(/trenelectrico.jpg)] bg-no-repeat bg-cover bg-[center_50%] sm:bg-center'>
                     <div className='grid container h-full px-4 gap-4 bg-gradient-to-t from-white via-white/50 to-transparent lg:bg-gradient-to-r lg:from-white lg:via-white/70 lg:to-white/0'>
-                        <div className="flex flex-col justify-end gap-4 py-8 items-center">
-                            <h1 className='text-xl lg:text-2xl font-bold text-blue-600'>
+                        <div className="flex flex-col justify-end lg:justify-center gap-4 py-8 items-center">
+                            <h1 className='text-2xl text-center lg:text-2xl font-bold text-blue-600'>
                                 <span>¿Sos trabajador de ferrocarril o de colectivo?</span>
                             </h1>
                             <div className="text-lg md:text-xl text-blue-600 text-center font-medium mb-2">

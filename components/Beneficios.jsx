@@ -2,7 +2,7 @@ import { CheckIcon } from 'lucide-react'
 
 export default function Beneficios() {
   return (
-    <section className='mx-2'>
+    <section className='mx-4'>
       <div data-aos="fade-up" className='container text-lg bg-white max-w-6xl mx-auto my-16 grid lg:grid-cols-2 rounded-3xl drop-shadow-lg'>
         <div className='lg:order-1 order-2 lg:rounded-l-3xl rounded-b-3xl p-6 flex flex-col justify-center items-center gap-12'>
           <h2 className='text-lg font-medium text-gray-600 lg:px-24'>

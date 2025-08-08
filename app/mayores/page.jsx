@@ -5,7 +5,7 @@ export default function mayores() {
     return(
         <div className='bg-[#FAFAFE]'>
             <section className='h-[calc(100vh-300px)] md:h-[calc(100vh-150px)] mt-[64px] lg:mt-[72px]'>
-                <div className='grid lg:grid-cols-2 lg:grid-rows-1 h-full items-end justify-center bg-[url(/abuelo.jpeg)] bg-cover bg-[-300px_-100px] sm:bg-center'>
+                <div className='grid lg:grid-cols-2 lg:grid-rows-1 h-full items-end justify-center bg-[url(/abuelo.jpeg)] bg-no-repeat bg-cover bg-[center_50%] sm:bg-center'>
                     <div className='grid container lg:grid-rows-2 h-full px-4 gap-4 bg-gradient-to-t from-white via-white/50 to-transparent lg:bg-gradient-to-r lg:from-white lg:via-white/70 lg:to-white/0'>
                         <div className='flex flex-col justify-end mb-12 gap-4 items-center'> 
                             <h1 className='text-xl font-bold mb-4 text-blue-600'>
@@ -19,7 +19,7 @@ export default function mayores() {
                             </p>
                             <Link
                                 href="/#contacto"
-                                className="animate-glow bg-blue-600 text-white py-2 px-6 rounded-md hover:bg-blue-700 transition text-shadow-none"
+                                className="animate-glow bg-blue-600 text-white py-2 mt-4 px-6 rounded-md hover:bg-blue-700 transition text-shadow-none"
                             >
                                 Contactanos
                             </Link>
