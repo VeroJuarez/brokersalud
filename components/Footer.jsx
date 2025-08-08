@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const links = [
+  { name: "Inicio", href: "/" },
   { name: "Jovenes", href: "/jovenes" },
   { name: "Adultos Mayores", href: "/mayores" },
   { name: "Monotributistas", href: "/monotributistas" },
-  { name: "Transporte", href: "/transportistas" },
-  { name: "Contacto", href: "/#contacto" }
+  { name: "Transporte", href: "/transportistas" }
 ]
 
 const Footer = () => {
