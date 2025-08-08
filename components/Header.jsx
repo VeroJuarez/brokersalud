@@ -2,9 +2,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu , X} from "lucide-react";
+import { usePathname } from "next/navigation";
 
 const Navbar = ({onContactClick}) => {
     const [open, setOpen] = useState(false);
+    const pathname = usePathname();
 
     const links = [
         { name: "Inicio", href: "/" },
@@ -12,8 +14,7 @@ const Navbar = ({onContactClick}) => {
         { name: "Adultos Mayores", href: "/mayores" },
         { name: "Monotributistas", href: "/monotributistas" },
         { name: "Transporte", href: "/transportistas" },
-        // { name: "Preguntas Frecuentes", href: "/faq" },
-        { name: "Contacto", href: "#contacto", onClick: onContactClick }
+        { name: "Contacto", href: `${pathname === '/' ? '' : '/'}#contacto`, onClick: onContactClick }
     ]
     return (
         <header className="fixed w-full top-0 z-50 py-1 bg-white/40 backdrop-blur-sm">
