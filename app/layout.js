@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import StructuredData from '@/components/StructuredData';
 import WhatsAppBubble from "@/components/WhatsAppBubble"
 import AosWrapper from "@/components/AosWrapper"
 import Head from "next/head";
@@ -20,6 +21,7 @@ export const metadata = {
   title: 'BrokerSalud',
   description:
     'Conocé nuestros planes de salud para monotributistas, mayores de 60 años y familias. Asesoramiento personalizado y cobertura nacional.',
+  keywords: 'salud, planes de salud, prepaga, prepagas, monotributistas, mayores de 60, sin limite de edad, cobertura médica, obras sociales, salud prepaga, asesoramiento personalizado, cobertura nacional',
   metadataBase: new URL('https://brokersalud.com.ar'),
   openGraph: {
     title: 'Broker Salud | Planes de Salud a tu medida y sin limite de edad',
@@ -72,6 +74,7 @@ export default function RootLayout({ children }) {
           <AosWrapper>{children}</AosWrapper>
         </div>
         <Footer />
+        <StructuredData />
         <WhatsAppBubble />
       </body>
     </html>

@@ -9,6 +9,7 @@ export default function Hero() {
                         <h1 className="text-4xl lg:text-5xl font-bold">
                             <span className="text-blue-500">Broker</span>
                             <span className="text-blue-400">Salud</span>
+                            <div className="sr-only">- Planes de salud a tu medida</div>
                         </h1>
                         <p className="text-lg md:text-xl text-blue-600 text-center font-medium mb-2">
                             Las mejores prepagas, al mejor precio y sin límite de edad
