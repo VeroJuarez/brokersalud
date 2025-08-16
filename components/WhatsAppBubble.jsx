@@ -1,3 +1,7 @@
+"use client"
+
+import Image from 'next/image'
+
 export default function WhatsAppBubble() {
     return (
         <div className="fixed bottom-0 right-0">
@@ -7,7 +11,16 @@ export default function WhatsAppBubble() {
                 rel="noopener noreferrer"
                 className=""
             >
-                <img src="/whatsapp.png" alt="WhatsApp" className="w-20 h-20 opacity-50 hover:opacity-100 m-4" />
+                <div className="relative w-20 h-20 m-4">
+                  <Image 
+                    src="/whatsapp.png" 
+                    alt="WhatsApp" 
+                    fill
+                    className="opacity-50 hover:opacity-100 transition-opacity"
+                    sizes="80px"
+                    unoptimized={true}
+                  />
+                </div>
             </a>
         </div>
     )

@@ -1,4 +1,5 @@
 import Carousel from "./Carousel"
+import Image from 'next/image'
 
 export default function Prepaid() {
     return (
@@ -7,13 +8,69 @@ export default function Prepaid() {
                 <Carousel images={['/logosprepagas/galeno.png', '/logosprepagas/doctored.png', '/logosprepagas/avalian.png', '/logosprepagas/premedic.svg', '/logosprepagas/swissmedical.svg', '/logosprepagas/prevencionsalud.webp']} />
             </div>
             <div data-aos="fade-in" className="hidden lg:grid container mx-auto px-2 grid-cols-7 place-content-center place-items-center gap-2">
-                <img src="/logosprepagas/galeno.png" alt="galeno" data-aos="fade-up" data-aos-delay="400" className="w-48 object-cover rounded-lg" />
-                <img src="/logosprepagas/avalian.png" alt="avalian" data-aos="fade-up" data-aos-delay="600" className="w-48 object-cover rounded-lg" />
-                <img src="/logosprepagas/docred.png" alt="doctored" data-aos="fade-up" data-aos-delay="200" className="w-48 object-cover rounded-lg" />
-                <img src="/logosprepagas/premedic.svg" alt="premedic" data-aos="fade-up" data-aos-delay="800" className="w-48 object-cover rounded-lg" />
-                <img src="/logosprepagas/swissmedical.svg" alt="swissmedical" data-aos="fade-up" data-aos-delay="1000" className="w-48 object-cover rounded-lg" />              
-                <img src="/logosprepagas/saludsancor.webp" alt="prevencionsalud" data-aos="fade-up" data-aos-delay="1200" className="w-48 object-cover rounded-lg" />
-                <img src="/logosprepagas/osdepym.png" alt="osdepym" data-aos="fade-up" data-aos-delay="600" className="w-48 object-cover rounded-lg"/>
+                <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="400">
+                    <Image 
+                      src="/logosprepagas/galeno.png" 
+                      alt="Galeno" 
+                      fill
+                      className="object-contain p-2"
+                      sizes="(max-width: 768px) 50vw, 150px"
+                      unoptimized={true}
+                    /></div>
+                <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="600">
+                    <Image 
+                      src="/logosprepagas/avalian.png" 
+                      alt="Avalian" 
+                      fill
+                      className="object-contain p-2"
+                      sizes="(max-width: 768px) 50vw, 150px"
+                      unoptimized={true}
+                    /></div>
+                <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="200">
+                    <Image 
+                      src="/logosprepagas/doctored.png" 
+                      alt="Doctor Edgardo Stocki" 
+                      fill
+                      className="object-contain p-2"
+                      sizes="(max-width: 768px) 50vw, 150px"
+                      unoptimized={true}
+                    /></div>
+                <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="800">
+                    <Image 
+                      src="/logosprepagas/premedic.svg" 
+                      alt="Premedic" 
+                      fill
+                      className="object-contain p-2"
+                      sizes="(max-width: 768px) 50vw, 150px"
+                      unoptimized={true}
+                    /></div>
+                <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="1000">
+                    <Image 
+                      src="/logosprepagas/swissmedical.svg" 
+                      alt="Swiss Medical" 
+                      fill
+                      className="object-contain p-2"
+                      sizes="(max-width: 768px) 50vw, 150px"
+                      unoptimized={true}
+                    /></div>
+                <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="1200">
+                    <Image 
+                      src="/logosprepagas/saludsancor.webp" 
+                      alt="Sancor Salud" 
+                      fill
+                      className="object-contain p-2"
+                      sizes="(max-width: 768px) 50vw, 150px"
+                      unoptimized={true}
+                    /></div>
+                <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="600">
+                    <Image 
+                      src="/logosprepagas/osdepym.png" 
+                      alt="OSDEPYM" 
+                      fill
+                      className="object-contain p-2"
+                      sizes="(max-width: 768px) 50vw, 150px"
+                      unoptimized={true}
+                    /></div>
             </div>
         </section>
     )

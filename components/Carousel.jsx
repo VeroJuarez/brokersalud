@@ -2,6 +2,7 @@
 
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
+import Image from 'next/image';
 
 export default function Carousel({images}) {
     const [ref] = useKeenSlider(
@@ -44,7 +45,16 @@ export default function Carousel({images}) {
         <div ref={ref} className="keen-slider rounded-xl overflow-hidden">
             {images.map((image, index) => (
                 <div key={index} className="keen-slider__slide flex justify-center items-center">
-                    <img src={image} alt="Imagen de prepaga" className="w-48 h-auto object-cover rounded-lg" />
+                    <div className="relative w-48 h-32">
+                      <Image 
+                        src={image} 
+                        alt="Imagen de prepaga" 
+                        fill
+                        className="object-cover rounded-lg"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        unoptimized={true}
+                      />
+                    </div>
                 </div>
             ))    
             }

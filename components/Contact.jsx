@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 const Contact = () => {
   const [step, setStep] = useState(1);
@@ -257,7 +258,16 @@ const Contact = () => {
               </p>
               <div className="max-w-2xl mx-auto grid lg:flex items-center bg-blue-100 rounded-xl shadow-md p-6 m-6">
                 <div className="flex justify-center">
-                  <img src="/cristina.png" alt="asesor" className="w-28 h-28 object-cover rounded-full lg:mr-6 pb-2" />
+                  <div className="relative w-28 h-28 lg:mr-6">
+                    <Image 
+                      src="/cristina.png" 
+                      alt="asesor" 
+                      fill
+                      className="object-cover rounded-full"
+                      sizes="112px"
+                      unoptimized={true}
+                    />
+                  </div>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-blue-700">Cristina Gatica</h3>
@@ -270,7 +280,16 @@ const Contact = () => {
               </div>
               <div className="max-w-2xl mx-auto grid lg:flex items-center bg-blue-100 rounded-xl shadow-md p-6 m-6">
                 <div className="flex justify-center">
-                  <img src="/jorge.png" alt="asesor" className="w-28 h-28 object-cover rounded-full lg:mr-6 pb-2" />
+                  <div className="relative w-28 h-28 lg:mr-6">
+                    <Image 
+                      src="/jorge.png" 
+                      alt="asesor" 
+                      fill
+                      className="object-cover rounded-full"
+                      sizes="112px"
+                      unoptimized={true}
+                    />
+                  </div>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-4 text-blue-700">Jorge Kreiman</h3>
