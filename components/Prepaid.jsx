@@ -5,7 +5,7 @@ export default function Prepaid() {
     return (
         <section className="bg-white pb-16 pt-12 lg:py-16">
             <div data-aos="fade-in" className="lg:hidden">
-                <Carousel images={['/logosprepagas/galeno.png', '/logosprepagas/doctored.png', '/logosprepagas/avalian.png', '/logosprepagas/premedic.svg', '/logosprepagas/swissmedical.svg', '/logosprepagas/prevencionsalud.webp']} />
+                <Carousel images={['/logosprepagas/galeno.png', '/logosprepagas/doctored.png', '/logosprepagas/avalian.png', '/logosprepagas/premedic.svg', '/logosprepagas/swissmedical.svg', '/logosprepagas/saludsancor.webp', '/logosprepagas/osdepym.png']} />
             </div>
             <div data-aos="fade-in" className="hidden lg:grid container mx-auto px-2 grid-cols-7 place-content-center place-items-center gap-2">
                 <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="400">
@@ -29,7 +29,7 @@ export default function Prepaid() {
                 <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="200">
                     <Image 
                       src="/logosprepagas/doctored.png" 
-                      alt="Doctor Edgardo Stocki" 
+                      alt="DoctoRed" 
                       fill
                       className="object-contain p-2"
                       sizes="(max-width: 768px) 50vw, 150px"
@@ -56,7 +56,7 @@ export default function Prepaid() {
                 <div className="relative w-48 h-24" data-aos="fade-up" data-aos-delay="1200">
                     <Image 
                       src="/logosprepagas/saludsancor.webp" 
-                      alt="Sancor Salud" 
+                      alt="Prevención Salud Sancor" 
                       fill
                       className="object-contain p-2"
                       sizes="(max-width: 768px) 50vw, 150px"
