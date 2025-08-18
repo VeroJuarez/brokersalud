@@ -44,15 +44,15 @@ export default function Carousel({images}) {
     return (
         <div ref={ref} className="keen-slider rounded-xl overflow-hidden">
             {images.map((image, index) => (
-                <div key={index} className="keen-slider__slide flex justify-center items-center">
-                    <div className="relative w-48 h-32">
+                <div key={index} className="keen-slider__slide flex justify-center items-center w-full">
+                    <div className="relative max-h-[80px] w-full h-48 md:h-64 lg:h-80">
                       <Image 
                         src={image} 
                         alt="Imagen de prepaga" 
                         fill
-                        className="object-cover rounded-lg"
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-contain rounded-lg"
                         unoptimized={true}
+                        sizes="(max-width: 768px) 100vw, 50vw"
                       />
                     </div>
                 </div>
