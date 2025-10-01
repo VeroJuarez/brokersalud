@@ -19,7 +19,7 @@ export async function POST(request) {
     // Envía el correo
     await transporter.sendMail({
       from: `"BrokerSalud - Formulario de Contacto" <${process.env.EMAIL_USER}>`,
-      to: [process.env.EMAIL_TO, process.env.EMAIL_TO_ADMIN].filter(Boolean),
+      to: [process.env.EMAIL_TO, process.env.EMAIL_TO_2, process.env.EMAIL_TO_ADMIN].filter(Boolean),
       subject: 'Nuevo mensaje del formulario de contacto',
       html: `
         <!DOCTYPE html>
