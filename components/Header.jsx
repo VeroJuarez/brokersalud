@@ -10,10 +10,8 @@ const Navbar = ({onContactClick}) => {
 
     const links = [
         { name: "Inicio", href: "/" },
-        { name: "Jovenes", href: "/jovenes" },
-        { name: "Adultos Mayores", href: "/mayores" },
-        { name: "Monotributistas", href: "/monotributistas" },
-        { name: "Transporte", href: "/transportistas" },
+        // { name: "Sobre Nosotros", href: "/sobrenosotros" },
+        { name: "Preguntas Frecuentes", href: "/faq" },
         { name: "Contacto", href: `${pathname === '/' ? '' : '/'}#contacto`, onClick: onContactClick }
     ]
     return (

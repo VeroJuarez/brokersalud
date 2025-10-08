@@ -8,7 +8,7 @@ export default function Accordion({ title, children }) {
     <div>
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between p-4 rounded-lg font-medium text-lg cursor-pointer hover:bg-gray-100"
+        className="flex w-full items-center justify-between p-6 rounded-lg font-medium text-lg cursor-pointer hover:bg-gray-100"
       >
         {title}
         <span className={`transition-transform ${open ? "rotate-180" : ""}`}>⌄</span>

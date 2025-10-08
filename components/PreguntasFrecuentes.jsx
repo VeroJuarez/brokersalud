@@ -5,39 +5,47 @@ export default function PreguntasFrecuentes() {
     return(
         <section className='mt-[64px] lg:mt-[72px] bg-gray-50 py-8'>
             <div className='max-w-4xl mx-auto p-8'>
-                <h1 className='text-2xl font-bold mb-4 my-4 mb-18 text-blue-600 text-center'>
+                <h1 className='text-3xl font-bold mb-4 my-4 mb-18 text-blue-600 text-center'>
                     Preguntas Frecuentes
                 </h1>
 
                 <div className="bg-white shadow-lg rounded-lg">
                     <Accordion title="¿Qué es un broker de salud?">
-                        <p>Un <b>broker de salud</b> es un asesor especializado que te ayuda a encontrar la mejor opción de cobertura médica según tus necesidades y presupuesto.</p>
-                        <p>Actuamos como intermediarios entre las personas y las empresas de medicina prepaga, ofreciendo asesoramiento personalizado y sin costo adicional para ti.</p>
+                        <div className="space-y-3">
+                            <p>Un <span className="font-semibold">broker de salud</span> es un asesor especializado que te ayuda a encontrar la mejor opción de cobertura médica según tus necesidades y presupuesto.</p>
+                            <p>Actuamos como intermediarios entre las personas y las empresas de medicina prepaga, ofreciendo asesoramiento personalizado y sin costo adicional para ti.</p>
+                        </div>
                     </Accordion>
 
                     <Accordion title="¿Por qué me conviene contratar un broker de salud?">
-                        <p>Contratar un broker de salud te ofrece varias ventajas:</p>
-                        <ul className="list-disc pl-5 space-y-2 mt-2">
-                            <li><b>Ahorro de tiempo:</b> Hacemos la búsqueda por ti, comparando múltiples opciones.</li>
-                            <li><b>Asesoramiento experto:</b> Te explicamos las diferencias entre planes y coberturas.</li>
-                            <li><b>Sin costo adicional:</b> Nuestros servicios son gratuitos para el cliente final.</li>
-                            <li><b>Mejores condiciones:</b> Accedé a promociones y descuentos exclusivos.</li>
-                        </ul>
+                        <div className="space-y-3">
+                            <p>Contratar un broker de salud te ofrece varias ventajas:</p>
+                            <ul className="list-disc pl-5 space-y-2">
+                                <li><span className="font-semibold">Ahorro de tiempo:</span> Hacemos la búsqueda por ti, comparando múltiples opciones.</li>
+                                <li><span className="font-semibold">Asesoramiento experto:</span> Te explicamos las diferencias entre planes y coberturas.</li>
+                                <li><span className="font-semibold">Sin costo adicional:</span> Nuestros servicios son gratuitos para el cliente final.</li>
+                                <li><span className="font-semibold">Mejores condiciones:</span> Accedé a promociones y descuentos exclusivos.</li>
+                            </ul>
+                        </div>
                     </Accordion>
 
                     <Accordion title="¿Cómo funciona el proceso de contratación?">
-                        <p>El proceso es simple y sin complicaciones:</p>
-                        <ol className="list-decimal pl-5 space-y-2 mt-2">
-                            <li>Contactanos por teléfono, WhatsApp o completando el formulario.</li>
-                            <li>Contanos tus necesidades y preferencias.</li>
-                            <li>Te mostramos las mejores opciones disponibles.</li>
-                            <li>Te acompañamos en todo el proceso de contratación.</li>
-                        </ol>
+                        <div className="space-y-3">
+                            <p>El proceso es simple y sin complicaciones:</p>
+                            <ol className="list-decimal pl-5 space-y-2">
+                                <li>Contactanos por teléfono, WhatsApp o completando el formulario.</li>
+                                <li>Contanos tus necesidades y preferencias.</li>
+                                <li>Te mostramos las mejores opciones disponibles.</li>
+                                <li>Te acompañamos en todo el proceso de contratación.</li>
+                            </ol>
+                        </div>
                     </Accordion>
 
                     <Accordion title="¿Puedo cotizar una Prepaga si ya tengo obra social?">
-                        <p><b>¡Sí!</b> Cualquier usuario de obra social puede contratar un servicio de medicina prepaga.</p>
-                        <p>Contactanos para ver qué opciones se ajustan a tus necesidades y presupuesto.</p>
+                        <div className="space-y-3">
+                            <p><span className="font-semibold">¡Sí!</span> Cualquier usuario de obra social puede contratar un servicio de medicina prepaga.</p>
+                            <p>Contactanos para ver qué opciones se ajustan a tus necesidades y presupuesto.</p>
+                        </div>
                     </Accordion>
                 </div>
             </div>

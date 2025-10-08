@@ -2,10 +2,8 @@ import Link from "next/link";
 
 const links = [
   { name: "Inicio", href: "/" },
-  { name: "Jovenes", href: "/jovenes" },
-  { name: "Adultos Mayores", href: "/mayores" },
-  { name: "Monotributistas", href: "/monotributistas" },
-  { name: "Transporte", href: "/transportistas" }
+  // { name: "Sobre Nosotros", href: "/sobrenosotros" },
+  { name: "Preguntas Frecuentes", href: "/faq" },
 ]
 
 const Footer = () => {
@@ -18,7 +16,7 @@ const Footer = () => {
                 <span className="text-blue-400">Salud</span>
             </h1>
           </div>
-          <div className="flex flex-col lg:flex-row w-full justify-evenly items-center col-span-3">
+          <div className="flex flex-col lg:flex-row w-full justify-evenly items-center col-span-3 lg:px-24">
             {links.map((link) => (
               <Link key={link.name} href={link.href} onClick={link.onClick} className="block py-2 text-gray-700 hover:text-blue-600">
                 {link.name}
